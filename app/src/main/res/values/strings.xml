@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">GestiondeCampeonatos</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_teams">Equipos</string>
+    <string name="nav_matches">Partidos</string>
+    <string name="nav_standings">Tabla</string>
+    <string name="home_description">Bienvenido a tu gestor de campeonatos.</string>
+    <string name="teams_description">Aquí podrás consultar los equipos del campeonato.</string>
+    <string name="matches_description">Aquí podrás consultar los partidos del campeonato.</string>
+    <string name="standings_description">Aquí podrás consultar la tabla de posiciones.</string>
+    <string name="add_team">Agregar equipo</string>
+    <string name="team_name">Nombre del equipo</string>
+    <string name="team_name_hint">De 1 a 60 caracteres.</string>
+    <string name="team_name_invalid">Ingresa un nombre de 1 a 60 caracteres.</string>
+    <string name="team_duplicate">Ya existe un equipo con ese nombre.</string>
+    <string name="team_save_error">No se pudo guardar el equipo. Inténtalo de nuevo.</string>
+    <string name="teams_load_error">No se pudieron cargar los equipos.</string>
+    <string name="teams_empty_title">Aún no hay equipos</string>
+    <string name="teams_empty_description">Agrega tu primer equipo para comenzar.</string>
+    <string name="save_team">Guardar</string>
+    <string name="saving_team">Guardando…</string>
+    <string name="cancel">Cancelar</string>
+    <string name="retry">Reintentar</string>
+    <string name="team_image_optional">Imagen del equipo (opcional)</string>
+    <string name="choose_team_image">Seleccionar imagen</string>
+    <string name="change_team_image">Cambiar imagen</string>
+    <string name="remove_team_image">Quitar imagen</string>
+    <string name="close_dialog">Cerrar formulario</string>
+    <string name="team_name_counter">%1$d/%2$d</string>
+    <string name="home_count_error">No se pudo cargar el total.</string>
+    <plurals name="team_count">
+        <item quantity="one">%d equipo</item>
+        <item quantity="other">%d equipos</item>
+    </plurals>
+    <string name="match_of_the_day">Partido del día</string>
+    <string name="no_matches_today">No hay partidos programados para hoy.</string>
 </resources>
